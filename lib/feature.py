@@ -1,3 +1,5 @@
+import numpy as np
+
 from skimage.feature import (corner_harris, corner_peaks, plot_matches, BRIEF, match_descriptors)
 from skimage.transform import warp, ProjectiveTransform
 from skimage.color import rgb2gray
